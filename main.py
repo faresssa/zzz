@@ -30,7 +30,7 @@ def similarity_score(name1, name2):
         return match.end() - match.start()
     return 0
 
-token = input("token: ")
+token = input("token: 6949957782:AAGxEuE9tJ42Li3sR8Tr1lzfdzm2WMMlNcc")
 app = Client("my_bot", api_hash="5229902a14b2512c35688aa152bd9f29", api_id=3895828, bot_token=token, parse_mode=pyrogram.enums.ParseMode.HTML)
 
 def create_voice_results(file_ids):
